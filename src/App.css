@@ -36,3 +36,33 @@
     transform: rotate(360deg);
   }
 }
+
+.card {
+  height: 100%;
+}
+
+.card-img-top {
+  width: 100%;
+  height: auto;
+  max-height: 200px;
+  object-fit: cover;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.initialImage{
+  opacity: 70%;
+}
+
+.floue:hover{
+  opacity: 100%;
+}
+
+.premplan{
+  z-index: 10;
+}
+

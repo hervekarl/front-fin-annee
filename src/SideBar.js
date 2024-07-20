@@ -28,7 +28,7 @@ const Sidebar = () => {
                         {openDropdown === 'dropdown1' && (
                             <ul className="list-unstyled bg-white shadow">
                                 <li className="py-2 px-3"><Link to="/ListePatient" className="text-decoration-none">Liste des Patient</Link></li>
-                                <li className="py-2 px-3"> <Link className="text-decoration-none">Ajouter un Patient</Link></li>
+                                <li className="py-2 px-3"> <Link className="text-decoration-none" to="/SavePatient">Ajouter un Patient</Link></li>
                                 <li className="py-2 px-3"><Link className="text-decoration-none">Consulter un Patient</Link></li>
                             </ul>
                         )}
@@ -43,9 +43,8 @@ const Sidebar = () => {
                         {openDropdown === 'dropdown2' && (
                             <ul className="list-unstyled bg-white shadow">
                             <li className="py-2 px-3"><Link to="/ListeEmployer" className="text-decoration-none">Liste des Personnel</Link></li>
-                            <li className="py-2 px-3"> <Link className="text-decoration-none">Ajouter un Personnel</Link></li>
-                            <li className="py-2 px-3"> <Link className="text-decoration-none">Modifier un Personnel</Link></li>
-                            <li className="py-2 px-3"><Link className="text-decoration-none">Supprimer un Personnel</Link></li>
+                            <li className="py-2 px-3"> <Link className="text-decoration-none" to="/SaveEmployer">Ajouter un Personnel</Link></li>
+                            <li className="py-2 px-3"> <Link className="text-decoration-none">Mention du Personnel</Link></li>
                             
                         </ul>
                         )}
@@ -60,10 +59,14 @@ const Sidebar = () => {
                         </button>
                         {openDropdown === 'dropdown3' && (
                             <ul className="list-unstyled bg-white shadow">
-                            <li className="py-2 px-3"><Link className="text-decoration-none">Liste des Personnel</Link></li>
-                            <li className="py-2 px-3"> <Link className="text-decoration-none">Ajouter un Personnel</Link></li>
-                            <li className="py-2 px-3"> <Link className="text-decoration-none">Modifier un Personnel</Link></li>
-                            <li className="py-2 px-3"><Link className="text-decoration-none">Supprimer un Personnel</Link></li>
+                            <li className="py-2 px-3"><Link className="text-decoration-none">Liste des salle</Link></li>
+                            <li className="py-2 px-3"> <Link className="text-decoration-none">Ajouter une Salle</Link></li>
+                            <li className="py-2 px-3"> <Link className="text-decoration-none">SAlle Disponible</Link></li>
+                            <li className="py-2 px-3"><Link className="text-decoration-none">Liste des Equipements</Link></li>
+                            <li className="py-2 px-3"><Link className="text-decoration-none">Equipement disponible</Link></li>
+                            <li className="py-2 px-3"><Link className="text-decoration-none">Ajouter un equipement</Link></li>
+                            <li className="py-2 px-3"><Link className="text-decoration-none">Liste des Batiment</Link></li>
+                            <li className="py-2 px-3"><Link className="text-decoration-none">Ajouter un Batiment</Link></li>
                             
                         </ul>
                         )}

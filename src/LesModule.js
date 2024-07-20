@@ -52,7 +52,7 @@ const ModuleExplain = () => {
                                 <img class="col-12" src={pharmacie} alt="Image Pharmacie" width="200" height="200" />
                             </div>
                             <div class="card-footer col-12 col-xl-12 col-md-12 col-sm-12" bg-light text-dark >
-                                <div class="text-center bg-light text-dark "> <h3>Nascetur nunc varius commodo</h3></div>
+                                <div class="text-center bg-light text-dark "> <h3>Gestion des Pharmacie</h3></div>
                                 <div class="text-center bg-light text-dark "><p>Interdum amet accumsan placerat commodo ut amet aliquam blandit nunc tempor lobortis nunc non. Mi accumsan etc.</p></div>
                             </div>
                         </div>
